@@ -1,0 +1,21 @@
+2018/11/20-12:12:00.086 4178 Reusing MANIFEST /home/frostmiku/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2018/11/20-12:12:00.086 4178 Recovering log #99
+2018/11/20-12:12:00.087 4178 Reusing old log /home/frostmiku/.config/google-chrome/Default/Session Storage/000099.log 
+2018/11/20-12:18:27.457 5002 Level-0 table #103: started
+2018/11/20-12:18:27.463 5002 Level-0 table #103: 21067 bytes OK
+2018/11/20-12:18:27.467 5002 Delete type=0 #99
+2018/11/20-13:53:54.127 5002 Level-0 table #105: started
+2018/11/20-13:53:54.132 5002 Level-0 table #105: 15064 bytes OK
+2018/11/20-13:53:54.136 5002 Delete type=0 #102
+2018/11/20-14:18:15.517 5002 Level-0 table #107: started
+2018/11/20-14:18:15.524 5002 Level-0 table #107: 18090 bytes OK
+2018/11/20-14:18:15.528 5002 Delete type=0 #104
+2018/11/20-14:18:15.528 5002 Compacting 4@0 + 1@1 files
+2018/11/20-14:18:15.539 5002 Generated table #108@0: 1193 keys, 75672 bytes
+2018/11/20-14:18:15.540 5002 Compacted 4@0 + 1@1 files => 75672 bytes
+2018/11/20-14:18:15.543 5002 compacted to: files[ 0 1 1 0 0 0 0 ]
+2018/11/20-14:18:15.543 5002 Delete type=2 #103
+2018/11/20-14:18:15.544 5002 Delete type=2 #98
+2018/11/20-14:18:15.545 5002 Delete type=2 #100
+2018/11/20-14:18:15.545 5002 Delete type=2 #107
+2018/11/20-14:18:15.545 5002 Delete type=2 #105

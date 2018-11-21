@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="displays" version="1.0">
+  <property name="Default" type="empty">
+    <property name="eDP1" type="string" value="笔记本电脑">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="ebe30dbcdc6ae40c0cf7f126ebc1a8b1bf4156ed"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="59.933878"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="true"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+    <property name="HDMI2" type="string" value="HKC 25&quot;">
+      <property name="Active" type="bool" value="true"/>
+      <property name="EDID" type="string" value="c36f85d13dce3c0045df1a1d9bd23e974cdae60a"/>
+      <property name="Resolution" type="string" value="1920x1080"/>
+      <property name="RefreshRate" type="double" value="60.000000"/>
+      <property name="Rotation" type="int" value="0"/>
+      <property name="Reflection" type="string" value="0"/>
+      <property name="Primary" type="bool" value="false"/>
+      <property name="Position" type="empty">
+        <property name="X" type="int" value="0"/>
+        <property name="Y" type="int" value="0"/>
+      </property>
+    </property>
+  </property>
+  <property name="IdentityPopups" type="bool" value="false"/>
+  <property name="Notify" type="bool" value="true"/>
+  <property name="AutoEnableProfiles" type="bool" value="true"/>
+</channel>

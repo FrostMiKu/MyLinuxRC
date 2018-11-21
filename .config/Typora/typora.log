@@ -1,0 +1,346 @@
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) 'app.makeSingleInstance(cb)' is deprecated. Use 'app.requestSingleInstanceLock() and app.on('second-instance', cb)' instead.
+DEBUG 2018/11/19 上午12:13:42  initSentry
+INFO 2018/11/19 上午12:13:42  luanchFromDiffVersion, pre version is undefined
+INFO 2018/11/19 上午12:13:42  overwriteThemeFolder
+INFO 2018/11/19 上午12:13:42  cannot parse user config, use the default one
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/19 上午12:13:42  initCountly
+INFO 2018/11/19 上午12:13:42  ------------------start------------------
+INFO 2018/11/19 上午12:13:42  typora version: 0.9.60
+DEBUG 2018/11/19 上午12:13:42  [ '/usr/share/typora/Typora' ]
+DEBUG 2018/11/19 上午12:13:42  /usr/share/typora/resources/app/locales/zh-Hans.lproj/Menu.json
+ERROR 2018/11/19 上午12:13:42  (node:27820) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 2018/11/19 上午12:13:42  app.openFile
+DEBUG 2018/11/19 上午12:13:42  [ 'github.css',
+  'newsprint.css',
+  'night.css',
+  'pixyll.css',
+  'whitey.css' ]
+INFO 2018/11/19 上午12:13:54  ------------------quit------------------
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) 'app.makeSingleInstance(cb)' is deprecated. Use 'app.requestSingleInstanceLock() and app.on('second-instance', cb)' instead.
+DEBUG 2018/11/19 上午12:14:05  initSentry
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/19 上午12:14:05  initCountly
+INFO 2018/11/19 上午12:14:05  ------------------start------------------
+INFO 2018/11/19 上午12:14:05  typora version: 0.9.60
+DEBUG 2018/11/19 上午12:14:05  [ '/usr/share/typora/Typora' ]
+DEBUG 2018/11/19 上午12:14:05  /usr/share/typora/resources/app/locales/zh-Hans.lproj/Menu.json
+ERROR 2018/11/19 上午12:14:05  (node:27899) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 2018/11/19 上午12:14:05  [ 'github.css',
+  'newsprint.css',
+  'night.css',
+  'pixyll.css',
+  'whitey.css' ]
+DEBUG 2018/11/19 上午12:14:05  app.openFile
+INFO 2018/11/19 上午12:14:18  addRecentDocument
+INFO 2018/11/19 上午12:14:54  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:15:14  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:15:17  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:15:29  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:15:36  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:15:39  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:15:49  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:16:25  addRecentDocument
+INFO 2018/11/19 上午12:16:26  addRecentDocument
+INFO 2018/11/19 上午12:16:27  addRecentDocument
+DEBUG 2018/11/19 上午12:16:27  lastSync 1542557785713, timestamp 1542557786702, mtime 1540912281046
+INFO 2018/11/19 上午12:16:28  addRecentDocument
+DEBUG 2018/11/19 上午12:16:28  lastSync 1542557786707, timestamp 1542557787879, mtime 1540912288580
+INFO 2018/11/19 上午12:16:31  addRecentDocument
+DEBUG 2018/11/19 上午12:16:31  lastSync 1542557785713, timestamp 1542557786702, mtime 1540912281046
+INFO 2018/11/19 上午12:16:33  addRecentDocument
+INFO 2018/11/19 上午12:16:48  addRecentDocument
+DEBUG 2018/11/19 上午12:16:48  lastSync 1542557785713, timestamp 1542557786702, mtime 1540912281046
+INFO 2018/11/19 上午12:16:48  addRecentDocument
+INFO 2018/11/19 上午12:16:49  addRecentDocument
+INFO 2018/11/19 上午12:17:10  addRecentDocument
+DEBUG 2018/11/19 上午12:17:10  lastSync 1542557808819, timestamp 1542557809578, mtime 1540912288580
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/19 上午12:17:58  app.openFile
+INFO 2018/11/19 上午12:17:59  addRecentFolder
+INFO 2018/11/19 上午12:18:17  addRecentDocument
+INFO 2018/11/19 上午12:18:31  addRecentDocument
+DEBUG 2018/11/19 上午12:18:31  lastSync 1542557808819, timestamp 1542557809578, mtime 1540912288580
+INFO 2018/11/19 上午12:18:33  addRecentDocument
+INFO 2018/11/19 上午12:21:30  window.File && (function() {
+                    document.body.classList.toggle("show-footer");
+                })();
+INFO 2018/11/19 上午12:21:34  window.File && (function() {
+                    document.body.classList.toggle("show-footer");
+                })();
+INFO 2018/11/19 上午12:22:40  window.File && (function() {            File.setCanCollapsePinnedOutline(true);        })();
+INFO 2018/11/19 上午12:22:41  window.File && (function() {            File.setCanCollapsePinnedOutline(false);        })();
+INFO 2018/11/19 上午12:22:42  window.File && (function() {            File.setCanCollapsePinnedOutline(true);        })();
+INFO 2018/11/19 上午12:22:44  window.File && (function() {            File.setCanCollapsePinnedOutline(false);        })();
+INFO 2018/11/19 上午12:22:55  window.File && (function(){File.option.enableInlineMath = true;})();
+INFO 2018/11/19 上午12:23:19  window.File && (function(){File.option.headingStyle = 3;})();
+INFO 2018/11/19 上午12:23:24  window.File && (function(){File.option.headingStyle = 0;})();
+INFO 2018/11/19 上午12:23:33  window.File && (function(){File.option.enableHighlight = true;})();
+INFO 2018/11/19 上午12:23:34  window.File && (function(){File.option.enableSuperscript = true;})();
+INFO 2018/11/19 上午12:23:34  window.File && (function(){File.option.enableSubscript = true;})();
+INFO 2018/11/19 上午12:24:12  window.File && (function(){File.option.showLineNumbersForFence = true;})();
+INFO 2018/11/19 上午12:24:20  window.File && (function(){File.option.autoNumberingForMath = true;})();
+INFO 2018/11/19 上午12:25:59  window.File && (function(){File.option.enableAutoSave = true;})();
+INFO 2018/11/19 上午12:26:10  window.File && (function(){File.option.enableAutoSave = false;})();
+INFO 2018/11/19 上午12:26:35  window.File && (function(){File.option.enableAutoSave = true;})();
+INFO 2018/11/19 上午12:27:53  ------------------quit------------------
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) 'app.makeSingleInstance(cb)' is deprecated. Use 'app.requestSingleInstanceLock() and app.on('second-instance', cb)' instead.
+DEBUG 2018/11/19 上午12:28:01  initSentry
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/19 上午12:28:01  initCountly
+INFO 2018/11/19 上午12:28:01  ------------------start------------------
+INFO 2018/11/19 上午12:28:01  typora version: 0.9.60
+DEBUG 2018/11/19 上午12:28:01  [ '/usr/share/typora/Typora' ]
+DEBUG 2018/11/19 上午12:28:01  /usr/share/typora/resources/app/locales/zh-Hans.lproj/Menu.json
+ERROR 2018/11/19 上午12:28:01  (node:28692) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 2018/11/19 上午12:28:01  [ 'github.css',
+  'newsprint.css',
+  'night.css',
+  'pixyll.css',
+  'whitey.css' ]
+DEBUG 2018/11/19 上午12:28:01  pinFolder /home/frostmiku/文档
+DEBUG 2018/11/19 上午12:28:01  app.openFile
+INFO 2018/11/19 上午12:28:02  addRecentFolder
+INFO 2018/11/19 上午12:28:09  addRecentDocument
+INFO 2018/11/19 上午12:28:16  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:28:25  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:28:29  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:28:45  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:28:55  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:29:07  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:29:17  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:29:45  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:29:53  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:30:02  addRecentDocument
+INFO 2018/11/19 上午12:30:05  addRecentDocument
+INFO 2018/11/19 上午12:30:07  addRecentDocument
+INFO 2018/11/19 上午12:30:10  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:30:24  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:30:39  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:30:59  window.File && (function(){		File.setTheme();	})();
+INFO 2018/11/19 上午12:31:05  addRecentDocument
+INFO 2018/11/19 上午12:31:08  addRecentDocument
+INFO 2018/11/19 上午12:31:08  addRecentDocument
+INFO 2018/11/19 上午12:31:12  addRecentDocument
+DEBUG 2018/11/19 上午12:31:32  app.openFile
+INFO 2018/11/19 上午12:31:32  addRecentDocument
+DEBUG 2018/11/19 上午12:34:26  app.openFile
+DEBUG 2018/11/19 上午12:38:31  app.openFile
+INFO 2018/11/19 上午12:39:15  addRecentDocument
+INFO 2018/11/19 上午12:39:15  addRecentDocument
+Error: Object has been destroyed
+    at Timeout._onTimeout (/usr/share/typora/resources/app/atom.asar/atom.js:472:86)
+    at ontimeout (timers.js:427:11)
+    at tryOnTimeout (timers.js:289:5)
+    at listOnTimeout (timers.js:252:5)
+    at Timer.processTimers (timers.js:212:10)
+INFO 2018/11/19 上午7:56:14  addRecentDocument
+INFO 2018/11/19 上午7:56:16  addRecentDocument
+INFO 2018/11/19 上午7:56:17  addRecentDocument
+INFO 2018/11/19 上午7:56:18  addRecentDocument
+INFO 2018/11/19 上午7:56:19  addRecentDocument
+DEBUG 2018/11/19 上午7:56:19  lastSync 1542585377300, timestamp 1542585378264, mtime 1542558661923
+INFO 2018/11/19 上午7:56:45  addRecentDocument
+INFO 2018/11/19 上午7:56:46  addRecentDocument
+INFO 2018/11/19 上午7:56:47  addRecentDocument
+INFO 2018/11/19 上午7:56:47  addRecentDocument
+INFO 2018/11/19 上午7:56:56  ------------------quit------------------
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) 'app.makeSingleInstance(cb)' is deprecated. Use 'app.requestSingleInstanceLock() and app.on('second-instance', cb)' instead.
+DEBUG 2018/11/19 下午7:53:10  initSentry
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/19 下午7:53:10  initCountly
+INFO 2018/11/19 下午7:53:10  ------------------start------------------
+INFO 2018/11/19 下午7:53:10  typora version: 0.9.60
+DEBUG 2018/11/19 下午7:53:10  [ '/usr/share/typora/Typora' ]
+DEBUG 2018/11/19 下午7:53:10  /usr/share/typora/resources/app/locales/zh-Hans.lproj/Menu.json
+ERROR 2018/11/19 下午7:53:10  (node:20703) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 2018/11/19 下午7:53:10  [ 'github.css',
+  'newsprint.css',
+  'night.css',
+  'pixyll.css',
+  'whitey.css' ]
+DEBUG 2018/11/19 下午7:53:10  pinFolder /home/frostmiku/文档
+DEBUG 2018/11/19 下午7:53:10  app.openFile
+INFO 2018/11/19 下午7:53:11  addRecentFolder
+INFO 2018/11/19 下午7:53:13  addRecentDocument
+INFO 2018/11/19 下午7:53:17  ------------------quit------------------
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) 'app.makeSingleInstance(cb)' is deprecated. Use 'app.requestSingleInstanceLock() and app.on('second-instance', cb)' instead.
+DEBUG 2018/11/19 下午8:21:11  initSentry
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/19 下午8:21:11  initCountly
+INFO 2018/11/19 下午8:21:11  ------------------start------------------
+INFO 2018/11/19 下午8:21:11  typora version: 0.9.60
+DEBUG 2018/11/19 下午8:21:11  [ '/usr/share/typora/Typora' ]
+DEBUG 2018/11/19 下午8:21:11  /usr/share/typora/resources/app/locales/zh-Hans.lproj/Menu.json
+ERROR 2018/11/19 下午8:21:11  (node:21571) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 2018/11/19 下午8:21:11  [ 'github.css',
+  'newsprint.css',
+  'night.css',
+  'pixyll.css',
+  'whitey.css' ]
+DEBUG 2018/11/19 下午8:21:11  pinFolder /home/frostmiku/文档
+DEBUG 2018/11/19 下午8:21:11  app.openFile
+INFO 2018/11/19 下午8:21:12  addRecentFolder
+INFO 2018/11/19 下午9:27:17  addRecentDocument
+INFO 2018/11/19 下午9:31:38  addRecentDocument
+INFO 2018/11/19 下午9:31:38  addRecentDocument
+DEBUG 2018/11/19 下午9:31:39  lastSync 1542634296910, timestamp 1542634298184, mtime 1542634296896
+DEBUG 2018/11/19 下午9:58:27  path /home/frostmiku/文档/博客/记录一下自己的Linux配置.md, win.id = 1
+ERROR 2018/11/19 下午9:58:27  wrapExeFunc Timed out window.onWindowBlur && window.onWindowBlur()
+DEBUG 2018/11/19 下午9:58:27  shouldSendCallback
+INFO 2018/11/19 下午11:33:06  ------------------quit------------------
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) 'app.makeSingleInstance(cb)' is deprecated. Use 'app.requestSingleInstanceLock() and app.on('second-instance', cb)' instead.
+DEBUG 2018/11/19 下午11:54:46  initSentry
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/19 下午11:54:46  initCountly
+INFO 2018/11/19 下午11:54:46  ------------------start------------------
+INFO 2018/11/19 下午11:54:46  typora version: 0.9.60
+DEBUG 2018/11/19 下午11:54:46  [ '/usr/share/typora/Typora',
+  '/run/media/frostmiku/KINGSTON/oh－my－zsh.md' ]
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/19 下午11:54:46  app.openFile
+INFO 2018/11/19 下午11:54:46  addRecentDocument
+DEBUG 2018/11/19 下午11:54:46  /usr/share/typora/resources/app/locales/zh-Hans.lproj/Menu.json
+ERROR 2018/11/19 下午11:54:46  (node:7160) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 2018/11/19 下午11:54:46  [ 'github.css',
+  'newsprint.css',
+  'night.css',
+  'pixyll.css',
+  'whitey.css' ]
+INFO 2018/11/19 下午11:54:52  ------------------quit------------------
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) 'app.makeSingleInstance(cb)' is deprecated. Use 'app.requestSingleInstanceLock() and app.on('second-instance', cb)' instead.
+DEBUG 2018/11/20 上午9:19:10  initSentry
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/20 上午9:19:10  initCountly
+INFO 2018/11/20 上午9:19:10  ------------------start------------------
+INFO 2018/11/20 上午9:19:10  typora version: 0.9.60
+DEBUG 2018/11/20 上午9:19:10  [ '/usr/share/typora/Typora' ]
+DEBUG 2018/11/20 上午9:19:10  /usr/share/typora/resources/app/locales/zh-Hans.lproj/Menu.json
+ERROR 2018/11/20 上午9:19:10  (node:11565) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 2018/11/20 上午9:19:10  [ 'github.css',
+  'newsprint.css',
+  'night.css',
+  'pixyll.css',
+  'whitey.css' ]
+DEBUG 2018/11/20 上午9:19:10  pinFolder /home/frostmiku/文档
+DEBUG 2018/11/20 上午9:19:10  app.openFile
+INFO 2018/11/20 上午9:19:11  addRecentFolder
+INFO 2018/11/20 上午9:19:24  addRecentDocument
+INFO 2018/11/20 上午9:47:07  ------------------quit------------------
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) 'app.makeSingleInstance(cb)' is deprecated. Use 'app.requestSingleInstanceLock() and app.on('second-instance', cb)' instead.
+DEBUG 2018/11/20 下午1:41:31  initSentry
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/20 下午1:41:31  initCountly
+INFO 2018/11/20 下午1:41:31  ------------------start------------------
+INFO 2018/11/20 下午1:41:31  typora version: 0.9.60
+DEBUG 2018/11/20 下午1:41:31  [ '/usr/share/typora/Typora' ]
+DEBUG 2018/11/20 下午1:41:31  /usr/share/typora/resources/app/locales/zh-Hans.lproj/Menu.json
+ERROR 2018/11/20 下午1:41:31  (node:7666) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 2018/11/20 下午1:41:31  [ 'github.css',
+  'newsprint.css',
+  'night.css',
+  'pixyll.css',
+  'whitey.css' ]
+DEBUG 2018/11/20 下午1:41:31  pinFolder /home/frostmiku/文档
+DEBUG 2018/11/20 下午1:41:31  app.openFile
+INFO 2018/11/20 下午1:41:32  addRecentFolder
+INFO 2018/11/20 下午1:41:36  addRecentDocument
+INFO 2018/11/20 下午1:49:24  ------------------quit------------------
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) 'app.makeSingleInstance(cb)' is deprecated. Use 'app.requestSingleInstanceLock() and app.on('second-instance', cb)' instead.
+DEBUG 2018/11/20 下午5:06:58  initSentry
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/20 下午5:06:58  initCountly
+INFO 2018/11/20 下午5:06:58  ------------------start------------------
+INFO 2018/11/20 下午5:06:58  typora version: 0.9.60
+DEBUG 2018/11/20 下午5:06:58  [ '/usr/share/typora/Typora' ]
+DEBUG 2018/11/20 下午5:06:58  /usr/share/typora/resources/app/locales/zh-Hans.lproj/Menu.json
+ERROR 2018/11/20 下午5:06:58  (node:12640) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 2018/11/20 下午5:06:58  [ 'github.css',
+  'newsprint.css',
+  'night.css',
+  'pixyll.css',
+  'whitey.css' ]
+DEBUG 2018/11/20 下午5:06:58  pinFolder /home/frostmiku/文档
+DEBUG 2018/11/20 下午5:06:58  app.openFile
+INFO 2018/11/20 下午5:06:59  addRecentFolder
+INFO 2018/11/20 下午5:07:03  addRecentDocument
+INFO 2018/11/20 下午5:07:21  ------------------quit------------------
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) 'app.makeSingleInstance(cb)' is deprecated. Use 'app.requestSingleInstanceLock() and app.on('second-instance', cb)' instead.
+DEBUG 2018/11/20 下午5:10:21  initSentry
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/20 下午5:10:21  initCountly
+INFO 2018/11/20 下午5:10:21  ------------------start------------------
+INFO 2018/11/20 下午5:10:21  typora version: 0.9.60
+DEBUG 2018/11/20 下午5:10:21  [ '/usr/share/typora/Typora' ]
+DEBUG 2018/11/20 下午5:10:21  /usr/share/typora/resources/app/locales/zh-Hans.lproj/Menu.json
+ERROR 2018/11/20 下午5:10:21  (node:12877) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 2018/11/20 下午5:10:21  [ 'github.css',
+  'newsprint.css',
+  'night.css',
+  'pixyll.css',
+  'whitey.css' ]
+DEBUG 2018/11/20 下午5:10:21  pinFolder /home/frostmiku/文档
+DEBUG 2018/11/20 下午5:10:21  app.openFile
+INFO 2018/11/20 下午5:10:22  addRecentFolder
+INFO 2018/11/20 下午5:10:37  addRecentDocument
+INFO 2018/11/20 下午5:10:39  addRecentDocument
+INFO 2018/11/20 下午5:10:46  ------------------quit------------------
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) 'app.makeSingleInstance(cb)' is deprecated. Use 'app.requestSingleInstanceLock() and app.on('second-instance', cb)' instead.
+DEBUG 2018/11/20 下午5:16:20  initSentry
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/20 下午5:16:20  initCountly
+INFO 2018/11/20 下午5:16:20  ------------------start------------------
+INFO 2018/11/20 下午5:16:20  typora version: 0.9.60
+DEBUG 2018/11/20 下午5:16:20  [ '/usr/share/typora/Typora' ]
+DEBUG 2018/11/20 下午5:16:20  /usr/share/typora/resources/app/locales/zh-Hans.lproj/Menu.json
+ERROR 2018/11/20 下午5:16:20  (node:13149) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 2018/11/20 下午5:16:20  [ 'github.css',
+  'newsprint.css',
+  'night.css',
+  'pixyll.css',
+  'whitey.css' ]
+DEBUG 2018/11/20 下午5:16:20  pinFolder /home/frostmiku/文档
+DEBUG 2018/11/20 下午5:16:20  app.openFile
+INFO 2018/11/20 下午5:16:21  addRecentFolder
+INFO 2018/11/20 下午5:16:25  addRecentDocument
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+(electron) 'app.makeSingleInstance(cb)' is deprecated. Use 'app.requestSingleInstanceLock() and app.on('second-instance', cb)' instead.
+DEBUG 2018/11/20 下午8:25:42  initSentry
+(electron) The 'lstatSyncNoException' function has been deprecated and marked for removal.
+DEBUG 2018/11/20 下午8:25:43  initCountly
+INFO 2018/11/20 下午8:25:43  ------------------start------------------
+INFO 2018/11/20 下午8:25:43  typora version: 0.9.60
+DEBUG 2018/11/20 下午8:25:43  [ '/usr/share/typora/Typora' ]
+DEBUG 2018/11/20 下午8:25:43  /usr/share/typora/resources/app/locales/zh-Hans.lproj/Menu.json
+ERROR 2018/11/20 下午8:25:43  (node:8897) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+DEBUG 2018/11/20 下午8:25:43  [ 'github.css',
+  'newsprint.css',
+  'night.css',
+  'pixyll.css',
+  'whitey.css' ]
+DEBUG 2018/11/20 下午8:25:43  app.openFile
+INFO 2018/11/20 下午8:25:43  addRecentDocument
+INFO 2018/11/20 下午8:25:55  ------------------quit------------------

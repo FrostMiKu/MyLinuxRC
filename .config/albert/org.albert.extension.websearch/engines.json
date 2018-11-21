@@ -1,0 +1,68 @@
+[
+    {
+        "iconPath": "/home/frostmiku/.config/albert/org.albert.extension.websearch/{e0422f92-80a4-491a-baeb-e4fdabb31deb}.",
+        "name": "知乎",
+        "trigger": "zh ",
+        "url": "\nhttp://www.zhihu.com/search?q=%s\n"
+    },
+    {
+        "iconPath": "/home/frostmiku/.config/albert/org.albert.extension.websearch/{3b1c63c0-96bf-46b0-b184-5c9605ae9704}.",
+        "name": "Stack Overflow",
+        "trigger": "so ",
+        "url": "http://stackoverflow.com/search?q=%s"
+    },
+    {
+        "iconPath": "/home/frostmiku/.config/albert/org.albert.extension.websearch/{0b4cafaa-4f4d-4fe5-a3d6-08639a9fcbd9}.",
+        "name": "百度百科",
+        "trigger": "wiki ",
+        "url": "https://baike.baidu.com/search/word?word=%s"
+    },
+    {
+        "iconPath": "/home/frostmiku/.config/albert/org.albert.extension.websearch/{64576eb2-53f4-4ffe-95c2-331b2038886c}.",
+        "name": "Google",
+        "trigger": "g ",
+        "url": "https://www.google.com/search?q=%s"
+    },
+    {
+        "iconPath": ":youtube",
+        "name": "Youtube",
+        "trigger": "yt ",
+        "url": "https://www.youtube.com/results?search_query=%s"
+    },
+    {
+        "iconPath": ":amazon",
+        "name": "Amazon",
+        "trigger": "ama ",
+        "url": "http://www.amazon.com/s/?field-keywords=%s"
+    },
+    {
+        "iconPath": ":ebay",
+        "name": "Ebay",
+        "trigger": "eb ",
+        "url": "http://www.ebay.com/sch/i.html?_nkw=%s"
+    },
+    {
+        "iconPath": ":github",
+        "name": "GitHub",
+        "trigger": "gh ",
+        "url": "https://github.com/search?utf8=✓&q=%s"
+    },
+    {
+        "iconPath": ":wolfram",
+        "name": "Wolfram Alpha",
+        "trigger": "=",
+        "url": "https://www.wolframalpha.com/input/?i=%s"
+    },
+    {
+        "iconPath": ":duckduckgo",
+        "name": "DuckDuckGo",
+        "trigger": "dd ",
+        "url": "https://duckduckgo.com/?q=%s"
+    },
+    {
+        "iconPath": "/home/frostmiku/.config/albert/org.albert.extension.websearch/{1989ed98-c638-4bcc-8c41-d06c1d209614}.",
+        "name": "百度",
+        "trigger": "bd ",
+        "url": "https://www.baidu.com/s?ie=UTF-8&wd=%s"
+    }
+]

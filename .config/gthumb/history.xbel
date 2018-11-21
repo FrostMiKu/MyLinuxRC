@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/frostmiku/%E4%B8%8B%E8%BD%BD" added="2018-11-20T09:03:01Z" modified="2018-11-20T09:03:01Z" visited="2018-11-20T09:03:01.934259Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-11-20T09:03:01Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/frostmiku/%E5%9B%BE%E7%89%87/Wallpapers" added="2018-11-20T09:03:01Z" modified="2018-11-20T09:03:01Z" visited="2018-11-20T09:03:01.934296Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-11-20T09:03:01Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/frostmiku/%E6%88%91%E7%9A%84%E5%9D%9A%E6%9E%9C%E4%BA%91" added="2018-11-20T09:03:01Z" modified="2018-11-20T09:03:01Z" visited="2018-11-20T09:03:01.934326Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="gThumb" exec="&apos;gthumb %u&apos;" modified="2018-11-20T09:03:01Z" count="1"/>
+        </bookmark:applications>
+        <bookmark:private/>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

@@ -1,0 +1,34 @@
+Persepolis Download Manager, 2018/11/20 02:31:05
+2018-11-20 02:31:06,365 - Persepolis Download Manager - ERROR - Aria2 didn't respond!
+2018-11-20 02:31:06,365 - Persepolis Download Manager - INFO - Starting Aria2
+2018-11-20 02:31:08,413 - Persepolis Download Manager - INFO - Aria2 is running
+2018-11-20 02:32:02,528 - Persepolis Download Manager - INFO - Please wait ...
+2018-11-20 02:32:02,529 - Persepolis Download Manager - ERROR - Aria2 Shutdown Error
+2018-11-20 02:32:03,231 - Persepolis Download Manager - INFO - Persepolis closed!
+Persepolis Download Manager, 2018/11/20 02:32:03
+2018-11-20 02:32:04,570 - Persepolis Download Manager - INFO - Aria2 is running
+Persepolis Download Manager, 2018/11/20 02:38:01
+2018-11-20 02:38:02,473 - Persepolis Download Manager - ERROR - Aria2 didn't respond!
+2018-11-20 02:38:02,473 - Persepolis Download Manager - INFO - Starting Aria2
+2018-11-20 02:38:04,502 - Persepolis Download Manager - INFO - Aria2 is running
+Persepolis Download Manager, 2018/11/20 02:38:14
+2018-11-20 02:38:15,592 - Persepolis Download Manager - INFO - Aria2 is running
+2018-11-20 02:38:57,904 - Persepolis Download Manager - INFO - 61d4c4ee268e8f8d Starts
+2018-11-20 06:23:13,484 - Persepolis Download Manager - INFO - 61d4c4ee268e8f8d paused
+2018-11-20 06:23:15,436 - Persepolis Download Manager - INFO - 61d4c4ee268e8f8d unpaused
+2018-11-20 06:24:30,973 - Persepolis Download Manager - INFO - 932ecf06e4fc7080 Starts
+2018-11-20 06:24:31,726 - Persepolis Download Manager - ERROR - Download failed - GID : 932ecf06e4fc7080/nMessage : 响应状态不成功。状态=403
+2018-11-20 06:43:20,920 - Persepolis Download Manager - ERROR - Download failed - GID : 61d4c4ee268e8f8d/nMessage : 超时。
+2018-11-20 07:31:41,748 - Persepolis Download Manager - INFO - Please wait ...
+2018-11-20 07:31:41,755 - Persepolis Download Manager - INFO - Aria2 Shutdown : OK
+2018-11-20 07:31:42,457 - Persepolis Download Manager - INFO - Persepolis closed!
+Persepolis Download Manager, 2018/11/20 07:31:47
+2018-11-20 07:31:48,158 - Persepolis Download Manager - ERROR - Aria2 didn't respond!
+2018-11-20 07:31:48,158 - Persepolis Download Manager - INFO - Starting Aria2
+2018-11-20 07:31:50,196 - Persepolis Download Manager - INFO - Aria2 is running
+2018-11-20 07:31:54,812 - Persepolis Download Manager - INFO - b8027f70342ce73c Starts
+2018-11-20 07:32:35,286 - Persepolis Download Manager - INFO - b8027f70342ce73c stopped
+2018-11-20 07:32:35,336 - Persepolis Download Manager - INFO - Download stoped - GID : b8027f70342ce73c
+2018-11-20 07:33:11,789 - Persepolis Download Manager - INFO - 1c0a2d85c7f6516f Starts
+2018-11-20 09:00:10,153 - Persepolis Download Manager - INFO - 1c0a2d85c7f6516f stopped
+2018-11-20 09:00:10,309 - Persepolis Download Manager - INFO - Download stoped - GID : 1c0a2d85c7f6516f

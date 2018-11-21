@@ -1,0 +1,179 @@
+<!--
+WARNING: THIS IS AN AUTO-GENERATED FILE. CHANGES TO IT ARE LIKELY TO BE
+OVERWRITTEN AND LOST. Changes to this xml configuration should be made using:
+  virsh snapshot-edit
+or other application using the libvirt API.
+-->
+
+<domainsnapshot>
+  <name>2018-11-19-23-10-03</name>
+  <description>Just installed 2018年11月19日, 23时10分03秒</description>
+  <state>running</state>
+  <creationTime>1542640203</creationTime>
+  <memory snapshot='internal'/>
+  <disks>
+    <disk name='hda' snapshot='internal'/>
+    <disk name='hdc' snapshot='no'/>
+  </disks>
+  <domain type='kvm'>
+    <name>win10</name>
+    <uuid>ef8663d0-d552-498c-bc63-624911507fa5</uuid>
+    <title>Microsoft Windows 10</title>
+    <metadata>
+      <boxes:gnome-boxes xmlns:boxes="https://wiki.gnome.org/Apps/Boxes">
+        <os-state>installed</os-state>
+        <os-id>http://microsoft.com/win/10</os-id>
+        <media-id>http://microsoft.com/win/10:7</media-id>
+        <media>/home/frostmiku/下载/cn_windows_10_multiple_editions_x64_dvd_6848463.iso</media>
+      </boxes:gnome-boxes>
+    </metadata>
+    <memory unit='KiB'>4179968</memory>
+    <currentMemory unit='KiB'>4179968</currentMemory>
+    <vcpu placement='static'>4</vcpu>
+    <os>
+      <type arch='x86_64' machine='pc-i440fx-3.0'>hvm</type>
+      <boot dev='hd'/>
+    </os>
+    <features>
+      <acpi/>
+      <apic/>
+    </features>
+    <cpu mode='custom' match='exact' check='partial'>
+      <model fallback='forbid'>Broadwell-noTSX-IBRS</model>
+      <topology sockets='1' cores='2' threads='2'/>
+    </cpu>
+    <clock offset='localtime'>
+      <timer name='rtc' tickpolicy='catchup'/>
+      <timer name='pit' tickpolicy='delay'/>
+      <timer name='hpet' present='no'/>
+    </clock>
+    <on_poweroff>destroy</on_poweroff>
+    <on_reboot>restart</on_reboot>
+    <on_crash>destroy</on_crash>
+    <pm>
+      <suspend-to-mem enabled='no'/>
+      <suspend-to-disk enabled='no'/>
+    </pm>
+    <devices>
+      <emulator>/usr/bin/qemu-system-x86_64</emulator>
+      <disk type='file' device='disk'>
+        <driver name='qemu' type='qcow2' cache='writeback'/>
+        <source file='/home/frostmiku/.local/share/gnome-boxes/images/win10'/>
+        <backingStore/>
+        <target dev='hda' bus='ide'/>
+        <address type='drive' controller='0' bus='0' target='0' unit='0'/>
+      </disk>
+      <disk type='file' device='cdrom'>
+        <driver name='qemu' type='raw'/>
+        <target dev='hdc' bus='ide'/>
+        <readonly/>
+        <address type='drive' controller='0' bus='1' target='0' unit='0'/>
+      </disk>
+      <controller type='usb' index='0' model='ich9-ehci1'>
+        <address type='pci' domain='0x0000' bus='0x00' slot='0x05' function='0x7'/>
+      </controller>
+      <controller type='usb' index='0' model='ich9-uhci1'>
+        <master startport='0'/>
+        <address type='pci' domain='0x0000' bus='0x00' slot='0x05' function='0x0' multifunction='on'/>
+      </controller>
+      <controller type='usb' index='0' model='ich9-uhci2'>
+        <master startport='2'/>
+        <address type='pci' domain='0x0000' bus='0x00' slot='0x05' function='0x1'/>
+      </controller>
+      <controller type='usb' index='0' model='ich9-uhci3'>
+        <master startport='4'/>
+        <address type='pci' domain='0x0000' bus='0x00' slot='0x05' function='0x2'/>
+      </controller>
+      <controller type='ide' index='0'>
+        <address type='pci' domain='0x0000' bus='0x00' slot='0x01' function='0x1'/>
+      </controller>
+      <controller type='virtio-serial' index='0'>
+        <address type='pci' domain='0x0000' bus='0x00' slot='0x06' function='0x0'/>
+      </controller>
+      <controller type='ccid' index='0'>
+        <address type='usb' bus='0' port='2'/>
+      </controller>
+      <controller type='pci' index='0' model='pci-root'/>
+      <interface type='user'>
+        <mac address='52:54:00:8a:1c:72'/>
+        <model type='rtl8139'/>
+        <address type='pci' domain='0x0000' bus='0x00' slot='0x03' function='0x0'/>
+      </interface>
+      <smartcard mode='passthrough' type='spicevmc'>
+        <address type='ccid' controller='0' slot='0'/>
+      </smartcard>
+      <serial type='pty'>
+        <target type='isa-serial' port='0'>
+          <model name='isa-serial'/>
+        </target>
+      </serial>
+      <console type='pty'>
+        <target type='serial' port='0'/>
+      </console>
+      <channel type='spicevmc'>
+        <target type='virtio' name='com.redhat.spice.0'/>
+        <address type='virtio-serial' controller='0' bus='0' port='1'/>
+      </channel>
+      <channel type='spiceport'>
+        <source channel='org.spice-space.webdav.0'/>
+        <target type='virtio' name='org.spice-space.webdav.0'/>
+        <address type='virtio-serial' controller='0' bus='0' port='2'/>
+      </channel>
+      <input type='tablet' bus='usb'>
+        <address type='usb' bus='0' port='3'/>
+      </input>
+      <input type='mouse' bus='usb'>
+        <address type='usb' bus='0' port='4'/>
+      </input>
+      <input type='keyboard' bus='usb'>
+        <address type='usb' bus='0' port='5'/>
+      </input>
+      <input type='mouse' bus='ps2'/>
+      <input type='keyboard' bus='ps2'/>
+      <graphics type='spice'>
+        <listen type='none'/>
+        <image compression='off'/>
+      </graphics>
+      <sound model='ich6'>
+        <address type='pci' domain='0x0000' bus='0x00' slot='0x04' function='0x0'/>
+      </sound>
+      <video>
+        <model type='virtio' heads='1' primary='yes'/>
+        <address type='pci' domain='0x0000' bus='0x00' slot='0x02' function='0x0'/>
+      </video>
+      <redirdev bus='usb' type='spicevmc'>
+        <address type='usb' bus='0' port='6'/>
+      </redirdev>
+      <redirdev bus='usb' type='spicevmc'>
+        <address type='usb' bus='0' port='1.1'/>
+      </redirdev>
+      <redirdev bus='usb' type='spicevmc'>
+        <address type='usb' bus='0' port='1.2'/>
+      </redirdev>
+      <redirdev bus='usb' type='spicevmc'>
+        <address type='usb' bus='0' port='1.3'/>
+      </redirdev>
+      <hub type='usb'>
+        <address type='usb' bus='0' port='1'/>
+      </hub>
+      <memballoon model='virtio'>
+        <address type='pci' domain='0x0000' bus='0x00' slot='0x07' function='0x0'/>
+      </memballoon>
+    </devices>
+  </domain>
+  <cookie>
+    <cpu mode='custom' match='exact' check='full'>
+      <model fallback='forbid'>Broadwell-noTSX-IBRS</model>
+      <topology sockets='1' cores='2' threads='2'/>
+      <feature policy='require' name='vme'/>
+      <feature policy='require' name='f16c'/>
+      <feature policy='require' name='rdrand'/>
+      <feature policy='require' name='hypervisor'/>
+      <feature policy='require' name='arat'/>
+      <feature policy='disable' name='spec-ctrl'/>
+      <feature policy='require' name='xsaveopt'/>
+      <feature policy='require' name='abm'/>
+    </cpu>
+  </cookie>
+  <active>1</active>
+</domainsnapshot>

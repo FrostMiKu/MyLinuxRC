@@ -1,0 +1,16 @@
+{
+   "background": {
+      "scripts": [ "ghost.js" ]
+   },
+   "browser_action": {
+      "default_icon": "ghost.png",
+      "default_title": "GhostPage"
+   },
+   "description": "Page layout checker.",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAibSaU6gK4uKn3pN1MovhyJ2KW3bPlY6AWEXzxfVfCWx9MaAi4le51s11AoSjLnwsE9iun49TKJ5X7g1QZhFgFtwsw1FkMIypJSDYdOaKxTmwdp76nnshLvHCbONip/A7i/4EFYwD+hhxomEAb64rxszxYOfHtG9VvbVatOjtmQqI5T174BjWDNwCMijpzgJwdRdAijB815NcUWg+R3DX+C3BmStmB/eW3Zqe2gCMkzL4YE1GsuhpOdeRcIy3Ek6tHL+AVhtDo3qorVfAIqvfDNxzL4KnR84sqZVvnK8pPdt5cAybqlbpwYlBrWZsw+kh4TKZ7uHcFU3LtjiqlvkhgQIDAQAB",
+   "manifest_version": 2,
+   "name": "GhostPage",
+   "permissions": [ "activeTab" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

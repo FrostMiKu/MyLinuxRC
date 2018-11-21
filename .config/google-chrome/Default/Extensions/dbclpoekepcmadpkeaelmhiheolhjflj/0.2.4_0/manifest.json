@@ -1,0 +1,46 @@
+{
+   "background": {
+      "page": "lib/chrome/background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "16": "data/icons/16.png",
+         "32": "data/icons/32.png",
+         "48": "data/icons/48.png",
+         "64": "data/icons/64.png"
+      },
+      "default_popup": "data/popup/popup.html",
+      "default_title": "User-Agent Switcher"
+   },
+   "commands": {
+      "toggle-default-mode": {
+         "description": "Toggle Default UA Mode",
+         "suggested_key": {
+            "default": "Ctrl+Shift+D",
+            "mac": "Command+Shift+D"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "data/content_script/inject.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Quickly and easily switch between popular user-agent strings.",
+   "homepage_url": "http://mybrowseraddon.com/useragent-switcher.html",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtiVmVIlU/uCcd54EKRv2w+h3wFFiK/MgoP40omAg07TFAFaibe8n7EQ4tRdJLDqZ7XkrKi19PI3f18DuOx3px5d7PUL3hy5xaTHeyRfcOiynoFU4KF2/TYRufhlgXGNlAfF7jyvN1G5ydVL1A8kkwHRhL9jqJ7igubhUvZSe1RVRixPpePX7tUzi6DKFCRJAsBCSTDEwbRzjeNNV8v1yZsZ+6EBTRBLAlcCmS9cBkgPo9kAE9iNAjja0UJ1jZO3/Yv/sSWxUjfLcXr8Y4kplDM5EsztKwmgJXTGKWe0sI+KtYTyN7a5A8cKPnspaa0J0kG7zNjtlIN3yMNHbDHdDlQIDAQAB",
+   "manifest_version": 2,
+   "name": "User-Agent Switcher",
+   "permissions": [ "tabs", "storage", "\u003Call_urls>", "webRequest", "webRequestBlocking" ],
+   "short_name": "useragent-switcher",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.4"
+}

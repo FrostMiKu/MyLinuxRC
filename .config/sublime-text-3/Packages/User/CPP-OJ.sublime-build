@@ -1,0 +1,14 @@
+{
+    "shell_cmd": "g++ -o \"${file_path}/${file_base_name}\" \"${file}\"",
+    "file_regex": "^(..[^:]*):([0-9]+):?([0-9]+)?:? (.*)$",
+    "working_dir": "${file_path}",
+    "selector": "source.c++",
+
+    "variants":
+    [
+        {
+            "name": "Run",
+            "shell_cmd": "g++ -o \"${file_path}/${file_base_name}\" \"${file}\" && cat in.txt | \"${file_path}/${file_base_name}\""
+        }
+    ]
+}
