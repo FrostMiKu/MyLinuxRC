@@ -1,7 +1,0 @@
-[
-  {"id": "rule-blocker", "title": "Rule AdBlocker"},
-  {"id": "custom-style-script", "title": "Custom Style Script"},
-  {"id": "open-in-private-mode", "title": "Open in Private Mode"},
-  {"id": "modify-header-value", "title": "Modify Header Value (HTTP Headers)"},
-  {"id": "access-control-allow-origin", "title": "Allow CORS: Access-Control-Allow-Origin"}
-]

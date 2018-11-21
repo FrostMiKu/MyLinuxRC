@@ -1,9 +1,0 @@
-2018/11/20-01:25:05.915 17756 Reusing MANIFEST /home/frostmiku/.config/google-chrome/Default/IndexedDB/https_www.mivm.cn_0.indexeddb.leveldb/MANIFEST-000001
-2018/11/20-01:25:35.489 17277 Current memtable full; waiting...
-2018/11/20-01:25:35.490 17842 Level-0 table #5: started
-2018/11/20-01:25:35.492 17842 Level-0 table #5: 432 bytes OK
-2018/11/20-01:25:35.496 17842 Delete type=0 #3
-2018/11/20-01:25:35.496 17842 Level-0 table #7: started
-2018/11/20-01:25:35.496 17842 Level-0 table #7: 0 bytes OK
-2018/11/20-01:25:35.500 17842 Delete type=0 #4
-2018/11/20-01:25:35.500 17842 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
