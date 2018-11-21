@@ -1,3 +1,7 @@
+#MyLinuxRC
+
+here is my system config
+
 ## Info
 
 OS: Manjaro 18.0 Illyria
