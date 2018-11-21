@@ -1,4 +1,4 @@
-#MyLinuxRC
+# MyLinuxRC
 
 here is my system config
 
