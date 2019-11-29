@@ -89,3 +89,4 @@ bindkey '^o' ranger-cd
 alias fq="proxychains4"
 alias zhuangb="screenfetch|lolcat"
 alias py="python"
+alias get_esp32='export PATH="$HOME/Projects/quickmcu/toolchain/esp32-toolchain/xtensa-esp32-elf/bin:$PATH";cd ~/Projects/quickmcu/platform/esp32'
