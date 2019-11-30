@@ -65,7 +65,7 @@ rule () {
 	print -P '%f'
 }
 
-# Ctrl-O clear
+# Ctrl-l clear
 function _my_clear() {
 	echo
 	rule
