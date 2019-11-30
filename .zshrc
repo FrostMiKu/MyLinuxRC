@@ -26,19 +26,22 @@ POWERLEVEL9K_TIME_BACKGROUND='255'
 POWERLEVEL9K_COMMAND_EXECUTION_TIME_BACKGROUND='245'
 POWERLEVEL9K_COMMAND_EXECUTION_TIME_FOREGROUND='black'
 
+POWERLEVEL9K_PROMPT_ON_NEWLINE=true
+POWERLEVEL9K_PROMPT_ADD_NEWLINE=true
+
 POWERLEVEL9K_TIME_FORMAT="%D{%H:%M}"
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator context dir dir_writable vcs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(os_icon dir newline host dir_writable vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status background_jobs command_execution_time time)
 POWERLEVEL9K_SHOW_CHANGESET=true
 
 HYPHEN_INSENSITIVE="true"
-COMPLETION_WAITING_DOTS="true"
+COMPLETION_WAITING_DOTS="false"
 # /!\ do not use with zsh-autosuggestions
 
-plugins=(k tig gitfast colored-man colorize command-not-found cp dirhistory autojump sudo zsh-syntax-highlighting)
+plugins=(tig gitfast colorize command-not-found cp dirhistory autojump sudo zsh-syntax-highlighting zsh-autosuggestions)
 # /!\ zsh-syntax-highlighting and then zsh-autosuggestions must be at the end
 
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+#source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZSH/oh-my-zsh.sh
 
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
@@ -62,6 +65,7 @@ rule () {
 	print -P '%f'
 }
 
+# Ctrl-O clear
 function _my_clear() {
 	echo
 	rule
@@ -89,4 +93,7 @@ bindkey '^o' ranger-cd
 alias fq="proxychains4"
 alias zhuangb="screenfetch|lolcat"
 alias py="python"
-alias get_esp32='export PATH="$HOME/Projects/quickmcu/toolchain/esp32-toolchain/xtensa-esp32-elf/bin:$PATH";cd ~/Projects/quickmcu/platform/esp32'
+
+QMCU="$HOME/Projects/quickmcu"
+alias qmcuenv='export PATH="$QMCU/toolchain/esp32-toolchain/xtensa-esp32-elf/bin:$PATH";export IDF_PATH="$QMCU/toolchain/esp-idf/esp-idf-v3.2.2"'
+alias qmcuc='cd $QMCU/platform/esp32;make -j6 app-flash;cd $OLDPWD;notify-send 编译完成'
